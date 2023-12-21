@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,500&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+    <img class="image" src="https://rest.goldenpay.az/logos/merchant_images/signin_az.png" alt="">
+    <form id="registerForm" autocomplete="off">
+
+        <div class="form_title-text">
+
+        <h2>Hesaba daxil ol</h2>
+        <h2>Məlumatlarınızı daxil edin</h2>
+
+    </div>
+
+        <div class="form-group">
+            <label for="Email and Mobile number">Email and Mobile number</label>
+            <input type="text" class="form-email" id="firstname"  name="firstname" placeholder="hesab@hesab.az və ya 994 00 123 45 67" >
+            <div class="message"></div>
+            
+        </div>
+
+        <div class="password-toggle" >
+            <label for="password">Password:</label>
+            <input type="password" class="form-password" id="password" name="password" placeholder="*****">
+            <div class="message"></div>
+            <img onclick="togglePasswordVisibility()" class="eye" src="assets/eye-close.png" alt="Toggle Password" >
+
+        </div>
+
+
+        <div class="form-checkbox">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="chechbox" name="yadda saxla" value="yadda saxla">
+                </div>
+                <label for="Yadda saxla">Yadda saxla</label>
+                
+                <li class="forget_password"><a href="./index3.html">Şifrəni unutmusunuz?</a></li>
+        
+            </div>
+
+            <div class="button">
+
+                <button class="btn">Daxil ol</button>
+
+               <a class="btn2" href="./index2.html" class="btn2">Yeni hesab yaradin </a>
+
+            </div>
+           
+
+       </form>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
